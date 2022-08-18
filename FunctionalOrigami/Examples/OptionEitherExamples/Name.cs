@@ -33,7 +33,7 @@ namespace FunctionalOrigami.Examples.OptionEitherExamples
             => Value;
 
         public Name ConcatS(Name name)
-            => new Name(Value.ConcatS(name.Value));
+            => new(Value.ConcatS(name.Value));
     }
 
     internal static class NameConstructor

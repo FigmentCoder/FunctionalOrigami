@@ -18,17 +18,17 @@ namespace FunctionalOrigami.Examples.OptionEitherExamples
             if (firstName.IsNull())
                 return Left(
                     Message(nameof(firstName)
-                        .ConcatS("cannnot be null")));
+                        .ConcatS("cannot be null")));
 
             if (middleName.IsNull())
                 return Left(
                     Message(nameof(middleName)
-                        .ConcatS("cannnot be null")));
+                        .ConcatS("cannot be null")));
 
             if (lastName.IsNull())
                 return Left(
                     Message(nameof(lastName)
-                        .ConcatS("cannnot be null")));
+                        .ConcatS("cannot be null")));
 
             return Right(new Person(firstName, middleName, lastName));
         }

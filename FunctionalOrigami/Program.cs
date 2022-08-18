@@ -7,7 +7,6 @@ using FunctionalOrigami.Examples.OptionExamples;
 using FunctionalOrigami.Examples.EitherExamples;
 using FunctionalOrigami.Examples.OptionEitherExamples;
 
-using static FunctionalOrigami.Extensions.FuncExtensions;
 using static FunctionalOrigami.Helpers.ConsoleHelper;
 using static FunctionalOrigami.Extensions.MapExtensions;
 
